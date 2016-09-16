@@ -1,11 +1,11 @@
-## Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
 
 This poroject uses 'Human Activity Recognition Using Smartphones' Dataset.In 'run_analysis.R', it merges  
 training set and test set data, create tidy dataset in "averageHumanActivityRecognition.txt" which 
 contains the average of each 68 variables for each activity and each subject.
 
 
-###The original data
+##The original data
 
 The data source is downloaded from 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -23,12 +23,12 @@ get from features.txt|tranning set |X_train.txt       |measurement data as defin
   	             |test set     |X_test.txt        |measurement data as define in features.txt  
     
 Acitvitis are
-1| WALKING
-2| WALKING_UPSTAIRS
-3| WALKING_DOWNSTAIRS
-4| SITTING
-5| STANDING
-6| LAYING
+- 1 WALKING
+- 2 WALKING_UPSTAIRS
+- 3 WALKING_DOWNSTAIRS
+- 4 SITTING
+- 5 STANDING
+- 6 LAYING
 
 
 ##Creating the tidy data file
