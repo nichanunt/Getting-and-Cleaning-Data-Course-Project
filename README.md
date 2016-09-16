@@ -1,5 +1,5 @@
-Getting and Cleaning Data Course Projectless
---------------------------------------------
+#Getting and Cleaning Data Course Project
+----------------------------------------
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. 
 The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. 
@@ -15,11 +15,11 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#Contents
+##Contents
 - run_analysis.R: sript for running. It creates the tidy data file "averageHumanActivityRecognition.txt"
 - CodeBook.md: describs data source, variables, and process to create the tidy data file.
 
-#Executing
+##Executing
 
 'source('run_analysis.R')'
 

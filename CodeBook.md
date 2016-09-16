@@ -1,10 +1,4 @@
----
-title: "Getting and Cleaning Data Course Project"
-date: "15-09-2016"
----
-
 ## Getting and Cleaning Data Course Project
-
 
 This poroject uses 'Human Activity Recognition Using Smartphones' Dataset.In 'run_analysis.R', it merges  
 training set and test set data, create tidy dataset in "averageHumanActivityRecognition.txt" which 
@@ -19,22 +13,22 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 This project uses files as variables in dataset below:
 
 
-Variable name |group        |file              | Description 
---------------|-------------|------------------|------------
-subject       |tranning set |subject_train.txt |30 subjects who performed the activities (range is 1-30)
-              |test set     |subject_test.txt  |30 subjects who performed the activities (range is 1-30)
-activity      |tranning set |Y_train.txt       |activities that each subject performs
-              |test set     |Y_test.txt        |activities that each subject performs
-get from      |tranning set |X_train.txt       |measurement data as define in features.txt
-features.txt  |test set     |X_test.txt        |measurement data as define in features.txt  
+Variable name 	     |group        |file              | Description 
+---------------------|-------------|------------------|------------
+subject              |tranning set |subject_train.txt |30 subjects who performed the activities (range is 1-30)
+		     |test set     |subject_test.txt  |30 subjects who performed the activities (range is 1-30)
+activity             |tranning set |Y_train.txt       |activities that each subject performs
+                     |test set     |Y_test.txt        |activities that each subject performs
+get from features.txt|tranning set |X_train.txt       |measurement data as define in features.txt
+  	             |test set     |X_test.txt        |measurement data as define in features.txt  
     
 Acitvitis are
-    1 WALKING
-    2 WALKING_UPSTAIRS
-    3 WALKING_DOWNSTAIRS
-    4 SITTING
-    5 STANDING
-    6 LAYING
+1| WALKING
+2| WALKING_UPSTAIRS
+3| WALKING_DOWNSTAIRS
+4| SITTING
+5| STANDING
+6| LAYING
 
 
 ##Creating the tidy data file
